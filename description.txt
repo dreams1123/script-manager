@@ -1,0 +1,64 @@
+1. Use LLM model : itlwas/hermes-3-llama-3.1-8b
+2. Use MongoDB : MONGODB_URI=mongodb+srv://audience_dropper:DfRsmXVzqMtZhqE4@cluster0.kmpjdcz.mongodb.net/audience_dropper?retryWrites=true&w=majority&appName=Cluster0
+3. Main Stack: Python
+4. GUI server
+
+
+----------------
+
+script1: chatbot - generate 10 keywords and phrases
+	save the result on database(MongoDB)
+
+script2: searching with 10 keywords on social sites.
+	- GoFundMe
+	- x.com
+	- reddit.com
+	- TikTok
+	...
+	
+	script2-1: getting some URLs on social sites.
+	script2-2: collecting necessary data (US)
+	script2-3: verify the data on true people search
+		save csv and MongoDB
+
+script3: indexer for searching true people from csv file
+
+
+-----------------
+
+
+Who are you looking for?
+I am looking for people who have brain cancer.
+
+What type of conversations are you looking for?
+People telling other people that they or their loved ones have brain cancer.
+
+What topic in conversations are you looking for?
+Brain Cancer
+
+What product or service do you offer?
+I treat brain cancer in a hospital.
+
+Describe the person you want to sell your product or service to?
+The person who has brain cancer or someone helping the person with brain cancer.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
